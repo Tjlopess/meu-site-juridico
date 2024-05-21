@@ -1,0 +1,157 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lopes Sousa Assessoria e Consultoria Jurídica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #3b5323;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #4b6b39;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #3b5323;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4b6b39;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #3b5323;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lopes Sousa Assessoria e Consultoria Jurídica</h1>
+</header>
+
+<nav>
+    <a href="#sobre-nos">Sobre Nós</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#blog">Blog</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre-nos">
+    <h2>Sobre Nós</h2>
+    <p>Com mais de 10 anos de experiência na área, o advogado titular do escritório é regularmente inscrito na OAB, especialista em Justiça Social, Criminalidade e Direitos Humanos, com formação no Instituto Latino Americano das Nações Unidas para Prevenção do Delito e Tratamento do Delinquente – ILANUD/ONU, em parceria com o Governo Federal Brasileiro. Especialista ainda, em Direito Civil e Processual Civil e Lei Geral de Processamento de Dados – LGPD.</p>
+</section>
+
+<section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+        <li>Consultoria Jurídica</li>
+        <li>Assessoria em Direito Civil</li>
+        <li>Assessoria em Direito Penal</li>
+        <li>Especialização em LGPD</li>
+        <li>Direitos Humanos</li>
+    </ul>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Em breve, compartilharemos artigos e atualizações sobre o mundo jurídico.</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <div class="contact-form">
+        <form action="https://example.com/submit" method="post">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<section id="galeria">
+    <h2>Galeria</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/200x150" alt="Foto 1">
+        <img src="https://via.placeholder.com/200x150" alt="Foto 2">
+        <img src="https://via.placeholder.com/200x150" alt="Foto 3">
+        <img src="https://via.placeholder.com/200x150" alt="Foto 4">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Lopes Sousa Assessoria e Consultoria Jurídica</p>
+    <p>Siga-nos nas redes sociais: 
+        <a href="https://facebook.com" style="color: #fff;">Facebook</a> | 
+        <a href="https://twitter.com" style="color: #fff;">Twitter</a> | 
+        <a href="https://linkedin.com" style="color: #fff;">LinkedIn</a>
+    </p>
+</footer>
+
+</body>
+</html>
